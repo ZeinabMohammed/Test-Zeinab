@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include test_zeinab *.css
+recursive-include test_zeinab *.csv
+recursive-include test_zeinab *.html
+recursive-include test_zeinab *.ico
+recursive-include test_zeinab *.js
+recursive-include test_zeinab *.json
+recursive-include test_zeinab *.md
+recursive-include test_zeinab *.png
+recursive-include test_zeinab *.py
+recursive-include test_zeinab *.svg
+recursive-include test_zeinab *.txt
+recursive-exclude test_zeinab *.pyc
