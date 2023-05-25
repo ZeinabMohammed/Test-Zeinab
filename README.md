@@ -18,7 +18,7 @@ MIT
 + `bench build --app test_zeinab`
 + `bench restart` if you are running on production server or restart manually if you are on DEV one.
 ### Notes
-* Developed  & tested on base `version-14` branch for both frappe & ERPNext App.
+* Developed  & tested on base `version-14` branch for both frappe & ERPNext apps.
 * Developed to be used by ERPNext desk.
 
 
