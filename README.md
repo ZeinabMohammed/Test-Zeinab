@@ -42,7 +42,7 @@ MIT
 - Open 'Power Consumption' and click 'New'.
 - You can find a button "Upload Entries" and you will  get a prompt to upload a file.
   - File should be an Excel sheet.
-  - File template should follow the provided file template.
+  - File template should follow the [provided file](Records%202%20%281%29.xlsx) template.
   - Make sure that all records data are valid:
     - datetime field values should be datetime type.
     - kw, kwh must be numeric or '-'.
