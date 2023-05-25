@@ -24,6 +24,7 @@ MIT
 
 ### Further enhancements
 * Make customer and project records linked to their associated doctpes in ERPNext app.
+* Make months select field and year linked to year list.
 * Add more validations.
 * Make fields filled with the extracted data from the file readonly.
 
@@ -32,6 +33,8 @@ MIT
 ## Customization:
 + Added 3 doctypes:
   + Power Consumption.
+    + The sales team are able to create and edit.
+    + The accounting team only have read access.
   + Power Consumption Details.
   + Periodic Power Consumption Details.
 + Added 1 Workspace: Power Consumption Worksapce.
