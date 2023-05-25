@@ -1,0 +1,169 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "{customer}.-.#####",
+ "creation": "2023-05-24 11:27:19.484979",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "upload_entries",
+  "customer",
+  "phone",
+  "project",
+  "power_consumption_details_section",
+  "power_consumption",
+  "average_kw",
+  "average_kwh",
+  "amended_from",
+  "periodic_details_section",
+  "periodic_power_consumption_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "upload_entries",
+   "fieldtype": "Button",
+   "label": "Upload Entries"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "power_consumption_details_section",
+   "fieldtype": "Section Break",
+   "label": "Power Consumption Details"
+  },
+  {
+   "fieldname": "power_consumption",
+   "fieldtype": "Table",
+   "label": "Power Consumption",
+   "options": "Power Consumption Details"
+  },
+  {
+   "fieldname": "average_kw",
+   "fieldtype": "Float",
+   "label": "Average KW",
+   "read_only": 1
+  },
+  {
+   "fieldname": "average_kwh",
+   "fieldtype": "Float",
+   "label": "Average KWH",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Power Consumption",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "periodic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Periodic Details"
+  },
+  {
+   "fieldname": "periodic_power_consumption_details",
+   "fieldtype": "Table",
+   "label": "Periodic Power Consumption Details",
+   "options": "Periodic Power Consumption Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-05-25 01:39:37.183993",
+ "modified_by": "Administrator",
+ "module": "Test Zeinab",
+ "name": "Power Consumption",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Master Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
